@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>BootStrap 4 Template</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    crossorigin="anonymous">
+
+  <!-- Nuestro CSS -->
+  <link rel="stylesheet" href="estilos3.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="dropdown08" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Inscripcción</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown08">
+                <a class="dropdown-item" href="categoria 1.html">Grupo-1</a>
+                <a class="dropdown-item" href="categoria 2.html">Grupo-2</a>
+                <a class="dropdown-item" href="categoria 3.html">Grupo-3</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div>
+      <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Fotos\c3fly.png" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="Fotos\subaru1.png" alt="" width="100%" height="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="Fotos\subaru.png" alt="" width="100%" height="100%">
+          </div>
+        </div>
+
+        <!--Controles NEXT y PREV-->
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--Controles de indicadores-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+    </div>
+  </header>
+
+  <div id="informacion" class="container-fluid">
+    <div class="row">
+      <div class=" col-6 col-md-6 col-xl-6 ">
+        <img id="mapa" class="col-xl-12 h-75 contain" src="Fotos\audi.jpg" alt="">
+      </div>
+
+      <div class="col-6 col-md-6 col-xl-6 ">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut error odit ipsum id rerum inventore odio?
+          Tempore ab, quos, sunt dolore quod aliquam fugiat dolores reprehenderit unde aperiam et facere?
+          Excepturi quos ea, obcaecati voluptatum consequuntur laudantium nulla earum dolorem eius tempore soluta
+          dolores neque impedit voluptatem? Ea, impedit vel? Quam eveniet tempore rerum harum recusandae obcaecati
+          debitis distinctio quo!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-6 col-xl-6 ">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut error odit ipsum id rerum inventore odio?
+          Tempore ab, quos, sunt dolore quod aliquam fugiat dolores reprehenderit unde aperiam et facere?
+          Excepturi quos ea, obcaecati voluptatum consequuntur laudantium nulla earum dolorem eius tempore soluta
+          dolores neque impedit voluptatem? Ea, impedit vel? Quam eveniet tempore rerum harum recusandae obcaecati
+          debitis distinctio quo!</p>
+      </div>
+
+      <div class="col-6 col-md-6 col-xl-6 contain">
+        <img id="mapa" class="col-xl-12" src="Fotos\subaru2.jpg" alt="">
+
+      </div>
+    </div>
+
+    <!--Grid row-->
+    <div class="container-fluid">
+
+
+      <div class="row">
+
+        <!--Grid column-->
+        <div id="formulario" class="col-md-12 mb-12 col-xl-12 mx-auto">
+
+          <!--Title-->
+          <h3 class="secondary-heading mb-4">
+            Contacta con nosotros
+          </h3>
+          <!--Description-->
+          <p>Cualquier duda sobre como inscribirse, o normas, marque la casilla correspondiente</p>
+          <!--Section: Live preview-->
+          <section>
+
+            <!-- Default form register -->
+            <div class="container-fluid">
+              <div class="row">
+
+
+                <div class="col-12 col-md-12 col-xl-6">
+                  <form class="text-center  p-5">
+
+                    <p class="h4 mb-4">Piloto</p>
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+                        <!-- First name -->
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre">
+                      </div>
+                      <div class="col">
+                        <!-- Last name -->
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                          placeholder="Apellidos">
+                      </div>
+                    </div>
+
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+                        <!-- First name -->
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="DNI">
+                      </div>
+                      <div class="col">
+                        <!-- Last name -->
+                        <label for="province" placeholder="Provincia">
+                          <select id="province" required name="provincia" class="form-control">
+                            <option value="">-Provincia-</option>
+                            <option value="Álava/Araba">Álava/Araba</option>
+                            <option value="Albacete">Albacete</option>
+                            <option value="Alicante">Alicante</option>
+                            <option value="Almería">Almería</option>
+                            <option value="Asturias">Asturias</option>
+                            <option value="Ávila">Ávila</option>
+                            <option value="Badajoz">Badajoz</option>
+                            <option value="Illes-Balears">Illes Balears</option>
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Burgos">Burgos</option>
+                            <option value="Cáceres">Cáceres</option>
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Cantabria">Cantabria</option>
+                            <option value="Castellón">Castellón</option>
+                            <option value="Ceuta">Ceuta</option>
+                            <option value="Ciudad Real">Ciudad Real</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Gerona/Girona">Gerona/Girona</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Huesca">Huesca</option>
+                            <option value="Jaén">Jaén</option>
+                            <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Las Palmas">Las Palmas</option>
+                            <option value="León">León</option>
+                            <option value="Lérida/Lleida">Lérida/Lleida</option>
+                            <option value="Lugo">Lugo</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Málaga">Málaga</option>
+                            <option value="Melilla">Melilla</option>
+                            <option value="Murcia">Murcia</option>
+                            <option value="Navarra">Navarra</option>
+                            <option value="Orense/Ourense">Orense/Ourense</option>
+                            <option value="Palencia">Palencia</option>
+                            <option value="Pontevedra">Pontevedra</option>
+                            <option value="Salamanca">Salamanca</option>
+                            <option value="Segovia">Segovia</option>
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Soria">Soria</option>
+                            <option value="Tarragona">Tarragona</option>
+                            <option value="Tenerife">Tenerife</option>
+                            <option value="Teruel">Teruel</option>
+                            <option value="Toledo">Toledo</option>
+                            <option value="Valencia">Valencia</option>
+                            <option value="Valladolid">Valladolid</option>
+                            <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                            <option value="Zamora">Zamora</option>
+                            <option value="Zaragoza">Zaragoza</option>
+                          </select>
+                      </div>
+                    </div>
+
+
+
+
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control"
+                          placeholder="Nacionalidad">
+                      </div>
+                      <div class="col">
+
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                          placeholder="Carnet de piloto">
+                      </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+
+                        <select id="province" required name="provincia" class="form-control">
+                          <option value="">¿Carnet de conducir?</option>
+                          <option value="">-Si-</option>
+                          <option value="">-No-</option>
+                        </select>
+                      </div>
+                      <div class="col">
+
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                          placeholder="Carnet de piloto">
+                      </div>
+                    </div>
+                    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+
+                    <hr>
+
+                    </p>
+
+                  </form>
+                </div>
+
+
+
+
+                <div class="col-xl-6">
+                  <form class="text-center p-5">
+
+                    <p class="h4 mb-4">Vehículo</p>
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+                        <!-- First name -->
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre">
+                      </div>
+                      <div class="col">
+                        <!-- Last name -->
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                          placeholder="Apellidos">
+                      </div>
+                    </div>
+
+
+                    <div class="form-row mb-4">
+                      <div class="col">
+                        <!-- First name -->
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre">
+                      </div>
+                      <div class="col">
+                        <!-- Last name -->
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                          placeholder="Apellidos">
+                      </div>
+                    </div>
+
+
+                    <!-- E-mail -->
+                    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Password -->
+                    <input type="text" id="defaultRegisterFormText" class="form-control mb-4"
+                      placeholder="Escriba su duda aquí" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
+
+                    <!-- Phone number -->
+                    <input type="text" id="defaultRegisterPhonePassword" class="form-control"
+                      placeholder="Número de teléfono" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+
+                    <button class="btn btn-info my-4 btn-block waves-effect bg-dark" type="submit">Enviar</button>
+
+                    <hr>
+
+                    </p>
+
+                  </form>
+                </div>
+                <div class="row">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, officiis dolorem. Reiciendis
+                    animi natus
+                    perferendis optio, doloremque vitae ipsa ullam, saepe provident illo neque quisquam quo fugit vero
+                    quasi
+                    aperiam.
+                    Totam ea quod omnis, architecto sapiente, repellat ipsa iure nesciunt aliquid ab tenetur velit saepe
+                    quidem enim
+                    quisquam sint accusamus porro reprehenderit? Velit natus laudantium ut at vero hic cum!
+                    Corrupti minima omnis amet numquam, iusto repudiandae quis unde? Minus, omnis, modi facilis officia
+                    culpa sed,
+                    saepe dignissimos eligendi quam veritatis obcaecati explicabo dolorem nesciunt voluptatibus
+                    distinctio ex
+                    eveniet aliquid.
+                    Natus quas, aperiam commodi nostrum sapiente soluta iusto obcaecati dolor eaque error eum quia
+                    laborum eligendi
+                    accusamus consequatur rem beatae nisi autem modi, at, ipsam nam! Debitis culpa facere est.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </form>
+  <!-- Default form register -->
+
+  </section>
+  <!--Section: Live preview-->
+
+  </div>
+
+  <div>
+
+  </div>
+  </div>
+
+
+
+  </section>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xl-6">
+        <img src="Fotos/polo.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, asperiores provident. In laborum
+          perferendis cumque placeat provident quas laboriosam voluptatum modi error reprehenderit, ullam, nam vel! Ea
+          officia iste optio!
+          Pariatur iusto tempore nemo eveniet, repellendus ullam officiis rerum voluptatum eum quia aperiam ex, quod
+          velit dolore consectetur. Saepe quia adipisci ullam, praesentium dolorum voluptatum eligendi totam dignissimos
+          nisi? Optio?</p>
+      </div>
+      <div class="col-xl-6">
+        <img src="Fotos/rally2.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, asperiores provident. In laborum
+          perferendis cumque placeat provident quas laboriosam voluptatum modi error reprehenderit, ullam, nam vel! Ea
+          officia iste optio!
+          Pariatur iusto tempore nemo eveniet, repellendus ullam officiis rerum voluptatum eum quia aperiam ex, quod
+          velit dolore consectetur. Saepe quia adipisci ullam, praesentium dolorum voluptatum eligendi totam dignissimos
+          nisi? Optio?</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"><img
+              src="Fotos\facebook.png" alt="Facebook"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"><img
+              src="Fotos\twitter.png" alt="Twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"><img
+              src="Fotos\googleplus.png" alt="Google"></i></a>
+
+      </section>
+      <!-- Section: Social media -->
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          La carrera de Rally más emocionante del 2020
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Rallys.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

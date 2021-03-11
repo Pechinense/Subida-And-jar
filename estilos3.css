@@ -1,0 +1,75 @@
+body{
+
+    background: radial-gradient(circle, rgb(168, 83, 101) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+#formulario{
+   margin-bottom: 5%;
+   margin-top: 3%;
+   background-color: rgba(0, 0, 0, 0.384);
+   border-radius: 20px;
+}
+#informacion{
+    margin-top: 50px;
+
+}
+img{
+    width: 100%;
+}
+.centrar{
+
+    height: 100%;
+}
+
+.contain{
+    object-fit: contain ;
+}
+#cuadricula{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#separa{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: #4c5461;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: rgba(73, 83, 102, 0.452);
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #4d2525;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+#register-form{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
